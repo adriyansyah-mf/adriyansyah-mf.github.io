@@ -8,9 +8,51 @@ description : Amankan server dari judol dan webshell dengan yara dan wazuh
 ---
 
 
+# tldr;
+
+```
+Apa itu Wazuh ?
+Wazuh adalah sebuah platform keamanan yang berfokus pada deteksi ancaman dan keamanan endpoint. Ini mencakup kemampuan monitoring, deteksi, dan respons terhadap ancaman keamanan pada lingkungan IT. Wazuh menyediakan fitur seperti deteksi serangan, analisis log, integritas file, dan monitoring keamanan berbasis aturan.
+
+Apa itu yara ?
+
+sebuah tool yang mengklasifikasikan apakah suatu binary,code, dll itu adalah malware atau bukan berdasarkan rules yang kita buat.
+
+```
+```
+Contoh rule yara kaya apa sir ?
+
+rule detect_gambling {
+    meta: 
+        author = "Adriyansyah MF @ Solusi247"
+        date = "2025-01-17"
+    strings:
+        $string0 = "gacor"
+        $string1 = "maxwin"
+        $string2 = "wetogel"
+        $string3 = "togel"
+        $string4 = "toto"
+        $string5 = "bet"
+        $string6 = "jackpot"
+        $string7 = "poker"
+        $string8 = "casino"
+        $string9 = "judi"
+        $string10 = "bola"
+        $string11 = "slot"
+        $string12 = "sabung"
+
+    condition:
+        2 of them
+}
+```
+diatas adalah contoh rule untuk deteksi judol dsb
+kalo ngomongin yara bakal lebih komplek, next artikel deh wkwkwkw 
+
+
 # Intermeso
 
 Akhir akhir ini serangan dari hemker penyepong bandar judol makin hari makin ganas. Karena itu sudah sewajarnya kita mengamankan server yang kita kelola. Sebenernya langkah untuk mengamankan ini ada banyak cara, salah satunya dengan menggunakan wazuh FIM dan yara
+
 
 ![Flowchart](/images/wazuh.jpg)
 
@@ -194,6 +236,7 @@ git clone https://github.com/adriyansyah-mf/yara-rules.git
 ```
 
 rules diatas bukan hanya deteksi gacor dsb, tapi juga deteksi beberapa webshell seperti gecko shell,bypasserv shell dsb
+oiya, ini rule yang udah di compile 
 
 Inspirasi artikel ini dari:
 https://mastomi.id/articles/2025-01/cegah-website-tampilkan-konten-judol-dengan-cloudflare-worker
