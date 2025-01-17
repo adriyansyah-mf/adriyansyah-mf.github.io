@@ -29,18 +29,19 @@ Sebelum ke tahap selanjutnya, Install dlu wazuh server, wazuh agent, dan yara
 
 2. Setelah setup FIM nya, kita config dulu wazuh servernya seperti berikut
    ```xml
-    <command>
-        <name>yara_linux</name>
-        <executable>yara.py</executable>
-        <timeout_allowed>no</timeout_allowed>
-    </command>
-  
+        <command>
+            <name>yara_linux</name>
+            <executable>yara.py</executable>
+            <timeout_allowed>no</timeout_allowed>
+        </command>
+    
 
-    <active-response>
-        <command>yara_linux</command>
-        <location>local</location>
-        <rules_id>554,550</rules_id>
-    </active-response>
+        <active-response>
+            <command>yara_linux</command>
+            <location>local</location>
+            <rules_id>554,550</rules_id>
+        </active-response>
+    ```
 3. Copykan 2 script ini di server yang telah terinstall wazuh agent:
    ```sh
         #!/bin/bash
