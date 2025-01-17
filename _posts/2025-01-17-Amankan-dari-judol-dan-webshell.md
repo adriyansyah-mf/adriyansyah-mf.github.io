@@ -28,6 +28,7 @@ Sebelum ke tahap selanjutnya, Install dlu wazuh server, wazuh agent, dan yara
    ```
 
 2. Setelah setup FIM nya, kita config dulu wazuh servernya seperti berikut
+   
    ```xml
         <command>
             <name>yara_linux</name>
