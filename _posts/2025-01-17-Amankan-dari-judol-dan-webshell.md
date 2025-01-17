@@ -18,6 +18,7 @@ Apa itu yara ?
 
 sebuah tool yang mengklasifikasikan apakah suatu binary,code, dll itu adalah malware atau bukan berdasarkan rules yang kita buat.
 
+sumber: ChatGPT 
 ```
 ```
 Contoh rule yara kaya apa sir ?
