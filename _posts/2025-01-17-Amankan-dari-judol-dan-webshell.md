@@ -12,7 +12,9 @@ description : Amankan server dari judol dan webshell dengan yara dan wazuh
 
 ```
 Apa itu Wazuh ?
-Wazuh adalah sebuah platform keamanan yang berfokus pada deteksi ancaman dan keamanan endpoint. Ini mencakup kemampuan monitoring, deteksi, dan respons terhadap ancaman keamanan pada lingkungan IT. Wazuh menyediakan fitur seperti deteksi serangan, analisis log, integritas file, dan monitoring keamanan berbasis aturan.
+Wazuh adalah sebuah platform keamanan yang berfokus pada deteksi ancaman dan keamanan endpoint.
+Ini mencakup kemampuan monitoring, deteksi, dan respons terhadap ancaman keamanan pada lingkungan IT. 
+Wazuh menyediakan fitur seperti deteksi serangan, analisis log, integritas file, dan monitoring keamanan berbasis aturan.
 
 Apa itu yara ?
 
