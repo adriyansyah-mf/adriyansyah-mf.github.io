@@ -7,6 +7,8 @@ fullview: false
 description: Streamline IPTables management across multiple nodes with Firewall Manager, seamlessly integrating with SIEM and SOAR for enhanced security and automation.
 ---
 
+![Firewall](/images/dashboard-firewall.png)
+
 # TL;DR  
 Managing IPTables manually on multiple nodes was a tedious and inefficient process. Each time a threat was detected, I had to log in to individual servers to apply firewall rules manually. This approach was not scalable and introduced delays in threat response.  
 
@@ -14,7 +16,7 @@ To address this, I developed **Firewall Manager**, a centralized tool that integ
 
 ---
 
-![Firewall](/images/dashboard-firewall.png)
+
 
 
 # Why Firewall Manager?  
