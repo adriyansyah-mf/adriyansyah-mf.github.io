@@ -18,7 +18,7 @@ Instead of flooding analysts with raw logs, this platform calculates a dynamic *
 ### 2. Hybrid UEBA (User & Entity Behavior Analytics)
 Traditional alerts are binary—a signature either matches or it doesn't. But the most dangerous attacks often use valid credentials that signatures miss.
 This platform introduces a Hybrid Anomaly Engine that combines deterministic logic with unsupervised machine learning. It builds dynamic behavior profiles for every user. If an HR employee suddenly runs a PowerShell script at 3 AM, the ML engine flags a "Statistical Deviation" instantly. By combining 40% hard rules with 60% behavioral learning, it catches the anomalies that represent the true "unknown unknowns."
-![UEBA](image-2.png)
+![UEBA](/images/image-2.png)
 ### 3. Automating the Narrative with Attack Chains
 Isolation is the enemy of detection. A port scan on Friday might be related to a data leak on Sunday.
 The Attack Chain Detector automatically correlates these disparate events using the **MITRE ATT&CK Framework**. It links anomalies based on entity relationships and time windows to form a coherent narrative: *Reconnaissance leading to Initial Access.* This shifts the focus from "what" happened to "how" it happened.
