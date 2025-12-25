@@ -7,14 +7,14 @@ Adding another tool to this stack wasn't the answer. The answer was to unify the
 This Unified Security Operation Platform was built not just to display charts, but to function as the "Central Nervous System" of the SOC. By connecting APIs from SIEM, EDR, Threat Intelligence, and Identity Providers into a single coherent interface, it shifts the operational reality from disjointed data collection to unified understanding.
 ## The Core Cognitive Engine
 This platform wasn't built to just report data. It was built to understand it, acting as a force multiplier for the human analyst. Here is the technology that makes it possible.
-![unified dashboard](image.png)
+![unified dashboard](/images/image.png)
 ### 1. Dynamic IP & User Risk Scoring
 Alerts are noisy; Risk Scores are clear.
 Instead of flooding analysts with raw logs, this platform calculates a dynamic **0-100 Risk Score** for every IP address and User in the network.
 
 *   **Multi-Factor Analysis**: The score is a weighted aggregate of *Threat Intelligence Reputation* (VirusTotal/OpenCTI), *Behavioral Anomalies* (UEBA), and *Historical Alert Volume*.
 *   **Prioritization**: Analysts don't sort by "Time"; they sort by "Risk Score". An IP with a score of 95 (Critical) instantly jumps to the top of the queue, regardless of alert severity.
-![scoring ip](image-1.png)
+![scoring ip](/images/image-1.png)
 ### 2. Hybrid UEBA (User & Entity Behavior Analytics)
 Traditional alerts are binary—a signature either matches or it doesn't. But the most dangerous attacks often use valid credentials that signatures miss.
 This platform introduces a Hybrid Anomaly Engine that combines deterministic logic with unsupervised machine learning. It builds dynamic behavior profiles for every user. If an HR employee suddenly runs a PowerShell script at 3 AM, the ML engine flags a "Statistical Deviation" instantly. By combining 40% hard rules with 60% behavioral learning, it catches the anomalies that represent the true "unknown unknowns."
@@ -25,11 +25,11 @@ The Attack Chain Detector automatically correlates these disparate events using 
 ### 4. The Active AI Co-Pilot
 The goal wasn't just a chatbot; it was a teammate. The Active AI Agent is designed with a "Composite Tool" architecture that allows it to perform complex, multi-step workflows safely.
 When an analyst asks to "Investigate User X," the AI queries the SIEM, checks Risk Scores, and visualizes the attack path using generated network graphs—all in seconds.
-![AI Assistant](image-3.png)
+![AI Assistant](/images/image-3.png)
 ### 5. Turning Knowledge into Action (RAG)
 Speed matters, but procedure matters more.
 This platform implements a Retrieval-Augmented Generation (RAG). Utilizing hybrid vector search, it proactively suggests the exact containment playbook from your SOPs the moment a threat is confirmed.
-![RAG](image-4.png)
+![RAG](/images/image-4.png)
 ---
 ## Comprehensive Feature Suite
 Beyond the core cognitive engine, the platform offers a complete suite of tools designed to cover the entire lifecycle of an incident.
