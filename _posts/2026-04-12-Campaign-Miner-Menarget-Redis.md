@@ -8,7 +8,7 @@ description : Waktu Redis Kantor Kena Ga Ke-Hardening (Cerita dari Lapangan)
 ---
 
 
-# Waktu Redis Kantor Kena Ga Ke-Hardening (Cerita dari Lapangan)
+# Campaign Malware yang nargetin redis missconfig
 
 Cerita ini dimulai dari hal yang sebenarnya biasa aja: **ngecek aset**, lihat-lihat konfigurasi, terus ngerasa ada yang “nggak pas”. Singkatnya, saya nemu **Redis server kantor yang-open** (missconfig), dan isinya malah mengarah ke indikasi bahwa server tersebut telah ter-compromised
 
@@ -217,7 +217,7 @@ Untuk artefak di disk kantor (mis. `javae`, `cb.txt`, `cr.sh`), **hitung SHA256 
 
 Kalau butuh versi formal (per file, IOC terpadu, rekomendasi IR panjang, diagram alur): lihat laporan Markdown di repo yang sama:
 
-- [Laporan analisis lengkap](/posts/laporan-lengkap/) — analisis gabungan `kworker`, `cb.txt`, dan `cr.sh` (tanggal analisis: 12 April 2026).
+- [`2026-04-12-laporan-lengkap.md`](/posts/laporan-lengkap/) — analisis gabungan `kworker`, `cb.txt`, dan `cr.sh` (tanggal analisis: 12 April 2026).
 
 ---
 
@@ -229,6 +229,6 @@ Redis tetap alat yang keren. Yang perlu dijaga **adalah eksposur dan permission-
 
 ---
 
-*Tulisan ini untuk berbagi pengalaman & edukasi; bagian rantai kampanye dan IOC melengkapi catatan di [Laporan analisis lengkap](/posts/laporan-lengkap/). URL dan IP di contoh berasal dari insiden / sampel analisis; gunakan sebagai referensi pola, bukan undangan buat nge-test exploit ke sistem orang.*
+*Tulisan ini untuk berbagi pengalaman & edukasi; bagian rantai kampanye dan IOC melengkapi catatan di [`2026-04-12-laporan-lengkap.md`](/posts/laporan-lengkap/). URL dan IP di contoh berasal dari insiden / sampel analisis; gunakan sebagai referensi pola, bukan undangan buat nge-test exploit ke sistem orang.*
 
 **Tag:** `#redis` `#malware` `#incidentresponse` `#threatintel` `#sysadminlife` `#infosec`
