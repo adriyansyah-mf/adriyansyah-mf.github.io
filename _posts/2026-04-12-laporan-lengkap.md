@@ -1,4 +1,16 @@
+---
+layout: post
+title: Laporan Analisis Malware — Rangkaian `kworker`, `cb.txt`, dan `cr.sh`
+category: cybersecurity
+tags: [cybersecurity,wazuh,blue team,wazuh,yara]
+fullview: false
+description : Laporan Analisis Malware — Rangkaian `kworker`, `cb.txt`, dan `cr.sh`
+---
+
+
+
 # Laporan Analisis Malware — Rangkaian `kworker`, `cb.txt`, dan `cr.sh`
+
 
 | Field | Nilai |
 |--------|--------|

@@ -1,4 +1,14 @@
-# Waktu Redis Kantor Kecemplung ke Kampanye Malware (Cerita dari Lapangan)
+---
+layout: post
+title: Waktu Redis Kantor Kena Ga Ke-Hardening (Cerita dari Lapangan)
+category: cybersecurity
+tags: [cybersecurity,wazuh,blue team,wazuh,yara]
+fullview: false
+description : Waktu Redis Kantor Kena Ga Ke-Hardening (Cerita dari Lapangan)
+---
+
+
+# Waktu Redis Kantor Kena Ga Ke-Hardening (Cerita dari Lapangan)
 
 Cerita ini dimulai dari hal yang sebenarnya biasa aja: **ngecek aset**, lihat-lihat konfigurasi, terus ngerasa ada yang “nggak pas”. Singkatnya, saya nemu **Redis server kantor yang-open** (missconfig), dan isinya malah mengarah ke indikasi bahwa server tersebut telah ter-compromised
 
